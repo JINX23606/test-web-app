@@ -5,7 +5,7 @@ app.listen(PORT,()=>{
     console.log(`API Listening on PORT${PORT}`)
 })
 app.get('/',(req,res)=>{
-    res.send('This is my API running...')
+    res.send('สวัสดีฮ้าบ')
 })
 app.get('/about',(req,res)=>{
     res.send('This is my about route')
