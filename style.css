@@ -5,20 +5,6 @@ body {
     background-color: #f0f0f0;
     text-align: center;
     padding: 50px;
-    .box {
-        height: 399px;
-        width: 760px;
-    }
-    
-    .box .rectangle {
-        height: 399px;
-        left: 0;
-        position: fixed;
-        top: 0;
-        width: 760px;
-        background-color: red;
-    }
-    
 }
 
 h1 {
@@ -26,4 +12,18 @@ h1 {
     font-size: 3em;
     font-family: 'Noto Sans Thai', sans-serif;
     font-weight: bold;
+}
+
+.box {
+    height: 399px;
+    width: 760px;
+}
+
+.box .rectangle {
+    height: 399px;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 760px;
+    background-color: red;
 }
