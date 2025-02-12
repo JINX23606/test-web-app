@@ -25,4 +25,5 @@ h1 {
     position: fixed;
     top: 0;
     width: 760px;
+    background-color: red;
 }
