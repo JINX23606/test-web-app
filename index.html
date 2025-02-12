@@ -3,13 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ink's Test app</title>
-    <link rel="stylesheet" href="style.css">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <h1>สวัสดีฮ้าบ</h1>
-    <div class="box">
-        <div class="rectangle"></div>
-    </div>
+    <header>
+        <h1>My Portfolio</h1>
+    </header>
+    <nav>
+        <button onclick="navigateTo('home')">Home</button>
+        <button onclick="navigateTo('about')">About</button>
+        <button onclick="navigateTo('projects')">Projects</button>
+        <button onclick="navigateTo('contact')">Contact</button>
+    </nav>
+    <main id="content">
+        <!-- Content will be loaded here -->
+    </main>
+    <script src="js/scripts.js"></script>
 </body>
 </html>
