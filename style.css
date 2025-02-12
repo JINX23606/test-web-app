@@ -13,3 +13,16 @@ h1 {
     font-family: 'Noto Sans Thai', sans-serif;
     font-weight: bold;
 }
+
+.box {
+    height: 399px;
+    width: 760px;
+}
+
+.box .rectangle {
+    height: 399px;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 760px;
+}
