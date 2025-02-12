@@ -1,9 +1,3 @@
-function navigateTo(page) {
-    const content = document.getElementById('content');
-    content.innerHTML = `<h2>${page.charAt(0).toUpperCase() + page.slice(1)}</h2><p>Content for ${page} page.</p>`;
-}
-// This file is intentionally left blank.
-
 function navigateTo(section) {
     const content = document.getElementById('content');
     switch(section) {
