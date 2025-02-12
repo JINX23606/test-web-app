@@ -12,7 +12,15 @@ app.get('/', (req, res) => {
 })
 
 app.get('/about', (req, res) => {
-    res.send('This is my about route')
+    res.sendFile(path.join(__dirname, 'about.html'))
+})
+
+app.get('/projects', (req, res) => {
+    res.sendFile(path.join(__dirname, 'projects.html'))
+})
+
+app.get('/contact', (req, res) => {
+    res.sendFile(path.join(__dirname, 'contact.html'))
 })
 
 module.exports = app
